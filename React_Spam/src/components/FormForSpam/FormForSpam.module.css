@@ -1,0 +1,57 @@
+.spamBox {
+    height: 180px;
+    position: absolute;
+    top: 300px;
+    right: 35%;
+    left: 35%;
+    border: 2px solid white;
+    padding: 20px;
+    background: none;
+    border-radius: 10px;
+}
+
+.spamInput {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.spamInput input {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid lightgray;
+    background: none;
+    padding: 5px 15px;
+    color: white;
+    font-size: 24px;
+}
+
+.spamInput input::placeholder {
+    color: lightgray;
+}
+
+.spamBox button {
+    width: 100%;
+    outline: none;
+    font-size: 22px;
+    padding: 10px 15px;
+    background-color: white;
+    filter: brightness(120%);
+    border: 2px solid white;
+    color: black;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: .4s;
+}
+
+.spamBox button:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+
+.spamBox button:active {
+    filter: brightness(70%);
+}

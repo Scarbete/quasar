@@ -1,0 +1,11 @@
+.modal {
+    position: absolute;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    font-size: 22px;
+    top: 50px;
+    right: 50px;
+    color: black;
+    cursor: pointer;
+}
